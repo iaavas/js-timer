@@ -8,15 +8,28 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <select name="" id="hr"  required></select>
-    <select name="" id="min" required></select>
-    <select name="" id="sec" required></select>
+    
+        <div class="display">
+          <span id="dispHr">00</span>:<span id="dispMin">00</span>:<span id="dispSec">00</span>
+        </div>
+    <div class="inputs">
+      <div class="time">
+        <label for="hr">Hour</label>
+        <select name="" id="hr" required></select>
+      </div>
 
-    <button id="timer-btn">Click</button>
+      <div class="time">
+        <label for="min">Minutes</label>
+        <select name="" id="min" required></select>
+      </div>
+      <div class="time">
+        <label for="sec">Seconds</label>
+        <select name="" id="sec" required></select>
+      </div>
+    </div>
 
-    <span id="dispHr">00</span>
-    <span id="dispMin">00</span>
-    <span id="dispSec">00</span>
+    <button id="timer-btn" class="">Start</button>
+
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
       integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
