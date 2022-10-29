@@ -27,7 +27,7 @@ body {
 .inputs .time {
   margin: 20px;
   padding: 10px;
-  margin-left: 18%;
+  margin-left: 15%;
 }
 
 .display {
@@ -86,16 +86,7 @@ select:hover {
     linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
     linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
 }
-
-select:active {
-  background-image: linear-gradient(var(--accentFg), var(--accentFg)),
-    linear-gradient(-135deg, transparent 50%, var(--accentFg) 50%),
-    linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
-    linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
-  color: var(--accentBg);
-  border-color: var(--accentFg);
-  background-color: var(--accentFg);
-}
+\
 
 #timer-btn {
   background-color: #016b36da;
